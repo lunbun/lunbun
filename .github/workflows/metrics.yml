@@ -13,7 +13,7 @@ jobs:
             contents: write
         steps:
           - name: 🗃️ Base content
-            uses: lunbun/metrics@master
+            uses: lowlighter/metrics@latest
             with:
                 use_prebuilt_image: yes
                 filename: metrics/metrics.base.svg
