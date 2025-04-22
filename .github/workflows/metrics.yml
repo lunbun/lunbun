@@ -64,11 +64,11 @@ jobs:
                 plugin_languages_sections: most-used
                 plugin_languages_threshold: 0%
 
-          - name: 👨‍💻 Lines of code changed
+          - name: ✨ Stargazers
             uses: lowlighter/metrics@latest
             with:
                 use_prebuilt_image: yes
-                filename: metrics/metrics.lines.svg
+                filename: metrics/metrics.stargazers.svg
                 token: ${{ secrets.METRICS_TOKEN }}
                 plugins_errors_fatal: yes
                 user: lunbun
@@ -76,7 +76,7 @@ jobs:
                 config_timezone: America/Los_Angeles
 
                 base: ""
-                plugin_lines: yes
-                plugin_lines_history_limit: 1
-                plugin_lines_repositories_limit: 4
-                plugin_lines_sections: base
+                plugin_stargazers: yes
+                plugin_stargazers_charts: yes
+                plugin_stargazers_charts_type: classic
+                plugin_stargazers_days: 14

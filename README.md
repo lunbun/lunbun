@@ -4,11 +4,11 @@ I'm Landon. I code stuff sometimes.
 
 <table>
   <tr>
-    <img src="/metrics/metrics.base.svg" alt="🗃️ Base content">
-    <img src="/metrics/metrics.languages.svg" alt="🈷️ Languages activity">
+    <td><img src="/metrics/metrics.base.svg" alt="🗃️ Base content"></td>
+    <td><img src="/metrics/metrics.languages.svg" alt="🈷️ Languages activity"></td>
   </tr>
   <tr>
-    <img src="/metrics/metrics.isocalendar.svg" alt="📅 Isometric commit calendar">
-    <img src="/metrics/metrics.lines.svg" alt="👨‍💻 Lines of code changed">
+    <td><img src="/metrics/metrics.isocalendar.svg" alt="📅 Isometric commit calendar"></td>
+    <td><img src="/metrics/metrics.stargazers.svg" alt="✨ Stargazers"></td>
   </tr>
 </table>
